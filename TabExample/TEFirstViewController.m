@@ -7,6 +7,8 @@
 //
 
 #import "TEFirstViewController.h"
+#import "TEAppDelegate.h"
+#import "SimpleViewController.h"
 
 @interface TEFirstViewController ()
 
@@ -45,6 +47,9 @@
 #pragma mark- 列表委托方法
 -(void)tableView:(UITableView *)tv didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    TEAppDelegate *delegate = (TEAppDelegate *)[[UIApplication sharedApplication] delegate];
+    UIViewController *controller = [[SimpleViewController alloc] initWithNibName:@"SimpleViewController" bundle:nil];
+    [delegate.navController pushViewController:controller animated:YES];
     [tv deselectRowAtIndexPath:indexPath animated:YES];
 }
 @end

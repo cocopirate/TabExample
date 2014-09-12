@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		709C51A819C2A403003D8A1E /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C51A619C2A403003D8A1E /* SimpleViewController.m */; };
+		709C51A919C2A403003D8A1E /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709C51A719C2A403003D8A1E /* SimpleViewController.xib */; };
 		CC6001E119BF538C00FF323A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6001E019BF538C00FF323A /* Foundation.framework */; };
 		CC6001E319BF538D00FF323A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6001E219BF538D00FF323A /* CoreGraphics.framework */; };
 		CC6001E519BF538D00FF323A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6001E419BF538D00FF323A /* UIKit.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		709C51A519C2A403003D8A1E /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleViewController.h; path = ../SimpleViewController.h; sourceTree = "<group>"; };
+		709C51A619C2A403003D8A1E /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleViewController.m; path = ../SimpleViewController.m; sourceTree = "<group>"; };
+		709C51A719C2A403003D8A1E /* SimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleViewController.xib; path = ../SimpleViewController.xib; sourceTree = "<group>"; };
 		CC6001DD19BF538C00FF323A /* TabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6001E019BF538C00FF323A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC6001E219BF538D00FF323A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +125,9 @@
 		CC6001E619BF538D00FF323A /* TabExample */ = {
 			isa = PBXGroup;
 			children = (
+				709C51A519C2A403003D8A1E /* SimpleViewController.h */,
+				709C51A619C2A403003D8A1E /* SimpleViewController.m */,
+				709C51A719C2A403003D8A1E /* SimpleViewController.xib */,
 				CC6001EF19BF538D00FF323A /* TEAppDelegate.h */,
 				CC6001F019BF538D00FF323A /* TEAppDelegate.m */,
 				CC6001F219BF538D00FF323A /* Main.storyboard */,
@@ -244,6 +252,7 @@
 			files = (
 				CC6001FC19BF538D00FF323A /* Images.xcassets in Resources */,
 				CC6001EB19BF538D00FF323A /* InfoPlist.strings in Resources */,
+				709C51A919C2A403003D8A1E /* SimpleViewController.xib in Resources */,
 				CC6001F419BF538D00FF323A /* Main.storyboard in Resources */,
 				CC60021C19BF586400FF323A /* file.png in Resources */,
 			);
@@ -268,6 +277,7 @@
 				CC6001F119BF538D00FF323A /* TEAppDelegate.m in Sources */,
 				CC60021A19BF54D500FF323A /* TEThirdViewController.m in Sources */,
 				CC6001F719BF538D00FF323A /* TEFirstViewController.m in Sources */,
+				709C51A819C2A403003D8A1E /* SimpleViewController.m in Sources */,
 				CC6001FA19BF538D00FF323A /* TESecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +483,7 @@
 				CC60021419BF538D00FF323A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC60021519BF538D00FF323A /* Build configuration list for PBXNativeTarget "TabExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +492,7 @@
 				CC60021719BF538D00FF323A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

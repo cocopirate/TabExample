@@ -16,9 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    UIViewController *view1 = [[TEFirstViewController alloc] initWithNibName:@"firstView" bundle:nil];
-    
-    self.navController = [[UINavigationController alloc] initWithRootViewController:view1];
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    self.navController = [tabBarController viewControllers][0];
     
     return YES;
 }
